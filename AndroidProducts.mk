@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_oscar.mk
+    $(LOCAL_DIR)/lmodroid_oscar.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_oscar-userdebug
+    lmodroid_oscar-userdebug
 
