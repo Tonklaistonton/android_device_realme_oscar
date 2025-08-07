@@ -1,7 +1,7 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
 ## are from Realme 9 Pro 5G (RMX3471_14.0.0.1900(EX01)).
 
-abl.img;AB
+abl.img;AB|fbbdb7cafd5c281b28d337d15ebd16ed28a6d1ae
 bluetooth.img;AB
 core_nhlos.img;AB
 devcfg.img;AB
