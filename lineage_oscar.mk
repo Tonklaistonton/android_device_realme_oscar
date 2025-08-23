@@ -15,6 +15,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from oscar device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+DERPFEST_BUILD_TYPE := community
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_oscar
 PRODUCT_DEVICE := oscar
