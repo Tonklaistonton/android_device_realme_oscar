@@ -16,11 +16,23 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_oscar
+PRODUCT_NAME := infinity_oscar
 PRODUCT_DEVICE := oscar
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3471
 PRODUCT_MANUFACTURER := realme
+
+# Whether you are compiling being an OFFICIAL Maintainer:
+INFINITY_BUILD_TYPE := UNOFFICIAL 
+
+# Maintainer Name
+INFINITY_MAINTAINER := "Tonton" 
+
+# Whether the device supports Fingerprint On Display
+TARGET_HAS_UDFPS := false 
+
+# Whether Including Google Apps
+WITH_GAPPS := false
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
